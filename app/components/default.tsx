@@ -7,20 +7,20 @@ const DefaultHeaderNavigation: FC = function () {
   return (
     <header>
       <Navbar sticky-top fluid className="bg-white dark:bg-gray-900 ">
-        <Navbar.Brand href="https://flowbite.com">
+        <Navbar.Brand href="#">
           <img
             src="https://flowbite.com/docs/images/logo.svg"
             className="mr-3 h-6 sm:h-9"
-            alt="Flowbite Logo"
+            alt="Trading Bot Gratis "
           />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-            Flowbite
+            Trading Bot Gratis 
           </span>
         </Navbar.Brand>
         <div className="flex items-center gap-3 md:gap-2 lg:order-2 md:order-2">
           <DarkThemeToggle />
           <Button color="blue" href="#">
-            Get started
+            Empezar
           </Button>
 
           <Navbar.Toggle
@@ -48,12 +48,12 @@ const DefaultHeaderNavigation: FC = function () {
           >
             Home
           </Navbar.Link>
-          <Navbar.Link href="#">Company</Navbar.Link>
-          <Navbar.Link href="#">Marketplace</Navbar.Link>
+          <Navbar.Link href="#">Estructura</Navbar.Link>
+          {/* <Navbar.Link href="#">Marketplace</Navbar.Link>
 
           <Navbar.Link href="#">Features</Navbar.Link>
           <Navbar.Link href="#">Team</Navbar.Link>
-          <Navbar.Link href="#">Contact</Navbar.Link>
+          <Navbar.Link href="#">Contact</Navbar.Link> */}
         </Navbar.Collapse>
       </Navbar>
     </header>

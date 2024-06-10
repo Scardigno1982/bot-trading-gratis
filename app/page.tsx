@@ -12,13 +12,13 @@ export default function Home() {
   return (
     <main>
       <AppScreenshotWithCTAsHero />
-      <DescriptionWithFeatureListIconsSection />
+      {/* <DescriptionWithFeatureListIconsSection />
       <AlternateImageWithFeatureListSection />
       <GridLayoutTestimonialCards />
       <IllustrationWithStatisticsSocialProof />
       <DefaultPricingTable />
       <SearchBarWithLinksFAQSection />
-      <DefaultNewsletterSection />
+      <DefaultNewsletterSection /> */}
     </main>
   );
 }
